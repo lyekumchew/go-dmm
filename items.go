@@ -133,6 +133,7 @@ type CdInformation struct {
 // SampleImage is a collection of sample image URL for a product
 type SampleImage struct {
 	SampleS SampleImageURLs `json:"sample_s"`
+	SampleL SampleImageURLs `json:"sample_l"`
 }
 
 // SampleImageURLs is sample image URLs for a product
