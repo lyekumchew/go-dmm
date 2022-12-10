@@ -116,11 +116,11 @@ const testItemsRequest = `
               "name": "壇えみ"
             },
             {
-              "id": "1046150_ruby",
+              "id": "1046150",
               "name": "だんえみ"
             },
             {
-              "id": "1046150_classify",
+              "id": "1046150",
               "name": "av"
             }
           ],
@@ -130,7 +130,7 @@ const testItemsRequest = `
               "name": "豆沢豆太郎"
             },
             {
-              "id": "107546_ruby",
+              "id": "107546",
               "name": "まめざわまめたろう"
             }
           ],
@@ -283,7 +283,7 @@ const testItemsRequest = `
               "name": "長瀬ハワイ"
             },
             {
-              "id": "102777_ruby",
+              "id": "102777",
               "name": "ながせはわい"
             }
           ],
@@ -330,71 +330,71 @@ func TestItems_List(t *testing.T) {
 			ItemInfo: map[string][]ItemComponent{
 				"actress": {
 					{
-						ID:   generic.MustString(1046150),
+						ID:   generic.MustInt(1046150),
 						Name: `壇えみ`,
 					},
 					{
-						ID:   generic.MustString("1046150_ruby"),
+						ID:   generic.MustInt(1046150),
 						Name: `だんえみ`,
 					},
 					{
-						ID:   generic.MustString("1046150_classify"),
+						ID:   generic.MustInt(1046150),
 						Name: `av`,
 					},
 				},
 				"genre": {
 					{
-						ID:   generic.MustString("6102"),
+						ID:   generic.MustInt(6102),
 						Name: `サンプル動画`,
 					},
 					{
-						ID:   generic.MustString("6004"),
+						ID:   generic.MustInt(6004),
 						Name: `デジモ`,
 					},
 					{
-						ID:   generic.MustString("4025"),
+						ID:   generic.MustInt(4025),
 						Name: `単体作品`,
 					},
 					{
-						ID:   generic.MustString("1032"),
+						ID:   generic.MustInt(1032),
 						Name: `お母さん`,
 					},
 					{
-						ID:   generic.MustString("2001"),
+						ID:   generic.MustInt(2001),
 						Name: `巨乳`,
 					},
 					{
-						ID:   generic.MustString("1039"),
+						ID:   generic.MustInt(1039),
 						Name: `人妻`,
 					},
 					{
-						ID:   generic.MustString("4111"),
+						ID:   generic.MustInt(4111),
 						Name: `寝取り・寝取られ`,
 					},
 					{
-						ID:   generic.MustString("1014"),
+						ID:   generic.MustInt(1014),
 						Name: `熟女`,
 					},
 				},
 				"director": {
 					{
-						ID:   generic.MustString("107546"),
+						ID:   generic.MustInt(107546),
 						Name: `豆沢豆太郎`,
 					},
 					{
-						ID:   generic.MustString("107546_ruby"),
+						ID:   generic.MustInt(107546),
 						Name: `まめざわまめたろう`,
 					},
 				},
 				"label": {
 					{
-						ID:   generic.MustString("2931"),
+						ID:   generic.MustInt(2931),
 						Name: `Madonna`,
 					},
 				},
 				"maker": {
 					{
-						ID:   generic.MustString("2661"),
+						ID:   generic.MustInt(2661),
 						Name: `マドンナ`,
 					},
 				},
@@ -448,63 +448,63 @@ func TestItems_List(t *testing.T) {
 			ItemInfo: map[string][]ItemComponent{
 				"director": {
 					{
-						ID:   generic.MustString(102777),
+						ID:   generic.MustInt(102777),
 						Name: `長瀬ハワイ`,
 					},
 					{
-						ID:   generic.MustString(`102777_ruby`),
+						ID:   generic.MustInt(102777),
 						Name: `ながせはわい`,
 					},
 				},
 				"genre": {
 					{
-						ID:   generic.MustString(4007),
+						ID:   generic.MustInt(4007),
 						Name: `企画`,
 					},
 					{
-						ID:   generic.MustString(1039),
+						ID:   generic.MustInt(1039),
 						Name: `人妻`,
 					},
 					{
-						ID:   generic.MustString(4024),
+						ID:   generic.MustInt(4024),
 						Name: `素人`,
 					},
 					{
-						ID:   generic.MustString(5009),
+						ID:   generic.MustInt(5009),
 						Name: `ごっくん`,
 					},
 					{
-						ID:   generic.MustString(5001),
+						ID:   generic.MustInt(5001),
 						Name: `中出し`,
 					},
 					{
-						ID:   generic.MustString(5068),
+						ID:   generic.MustInt(5068),
 						Name: `イラマチオ`,
 					},
 					{
-						ID:   generic.MustString(6012),
+						ID:   generic.MustInt(6012),
 						Name: `4時間以上作品`,
 					},
 					{
-						ID:   generic.MustString(6533),
+						ID:   generic.MustInt(6533),
 						Name: `ハイビジョン`,
 					},
 				},
 				"label": {
 					{
-						ID:   generic.MustString(24342),
+						ID:   generic.MustInt(24342),
 						Name: `コスモス映像（ソフトオンデマンド）`,
 					},
 				},
 				"maker": {
 					{
-						ID:   generic.MustString(46115),
+						ID:   generic.MustInt(46115),
 						Name: `コスモス映像`,
 					},
 				},
 				"series": {
 					{
-						ID:   generic.MustString(211038),
+						ID:   generic.MustInt(211038),
 						Name: `夫に内緒で他人棒SEX`,
 					},
 				},
@@ -647,71 +647,71 @@ func TestItems_First(t *testing.T) {
 		ItemInfo: map[string][]ItemComponent{
 			"actress": {
 				{
-					ID:   generic.MustString(1046150),
+					ID:   generic.MustInt(1046150),
 					Name: `壇えみ`,
 				},
 				{
-					ID:   generic.MustString("1046150_ruby"),
+					ID:   generic.MustInt(1046150),
 					Name: `だんえみ`,
 				},
 				{
-					ID:   generic.MustString("1046150_classify"),
+					ID:   generic.MustInt(1046150),
 					Name: `av`,
 				},
 			},
 			"genre": {
 				{
-					ID:   generic.MustString("6102"),
+					ID:   generic.MustInt(6102),
 					Name: `サンプル動画`,
 				},
 				{
-					ID:   generic.MustString("6004"),
+					ID:   generic.MustInt(6004),
 					Name: `デジモ`,
 				},
 				{
-					ID:   generic.MustString("4025"),
+					ID:   generic.MustInt(4025),
 					Name: `単体作品`,
 				},
 				{
-					ID:   generic.MustString("1032"),
+					ID:   generic.MustInt(1032),
 					Name: `お母さん`,
 				},
 				{
-					ID:   generic.MustString("2001"),
+					ID:   generic.MustInt(2001),
 					Name: `巨乳`,
 				},
 				{
-					ID:   generic.MustString("1039"),
+					ID:   generic.MustInt(1039),
 					Name: `人妻`,
 				},
 				{
-					ID:   generic.MustString("4111"),
+					ID:   generic.MustInt(4111),
 					Name: `寝取り・寝取られ`,
 				},
 				{
-					ID:   generic.MustString("1014"),
+					ID:   generic.MustInt(1014),
 					Name: `熟女`,
 				},
 			},
 			"director": {
 				{
-					ID:   generic.MustString("107546"),
+					ID:   generic.MustInt(107546),
 					Name: `豆沢豆太郎`,
 				},
 				{
-					ID:   generic.MustString("107546_ruby"),
+					ID:   generic.MustInt(107546),
 					Name: `まめざわまめたろう`,
 				},
 			},
 			"label": {
 				{
-					ID:   generic.MustString("2931"),
+					ID:   generic.MustInt(2931),
 					Name: `Madonna`,
 				},
 			},
 			"maker": {
 				{
-					ID:   generic.MustString("2661"),
+					ID:   generic.MustInt(2661),
 					Name: `マドンナ`,
 				},
 			},
