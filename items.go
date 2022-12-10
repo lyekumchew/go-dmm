@@ -66,7 +66,6 @@ type Item struct {
 	SampleMovieURL     SampleMovie                `mapstructure:"sampleMovieURL"`
 	ServiceCode        string                     `json:"service_code"`
 	ServiceName        string                     `json:"service_name"`
-	Stock              string                     `json:"stock"`
 	Title              string                     `json:"title"`
 	URL                string                     `json:"URL"`
 	URLMobile          string                     `json:"URLsp"`
