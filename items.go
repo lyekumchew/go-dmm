@@ -92,8 +92,8 @@ type ImageURL struct {
 
 // ItemComponent is a product detail
 type ItemComponent struct {
-	ID   generic.Int `json:"id"`
-	Name string      `json:"name"`
+	ID   generic.String `json:"id"`
+	Name string         `json:"name"`
 }
 
 // Prices is a price information
