@@ -57,6 +57,7 @@ type Item struct {
 	ImageURL           ImageURL                   `json:"imageURL"`
 	ISBN               string                     `json:"isbn,omitempty"`
 	ItemInfo           map[string][]ItemComponent `json:"iteminfo"`
+	Directory          []ItemComponent            `json:"directory"`
 	JANCode            string                     `json:"jancode,omitempty"`
 	MakerProduct       string                     `json:"maker_product"`
 	Prices             Prices                     `json:"prices"`
